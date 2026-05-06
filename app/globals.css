@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-deep: #0E1410;
+  --color-bg-card: #162019;
+  --color-bg-elevated: #1E2D22;
+  --color-border: #2A3D2E;
+  --color-border-light: #3A5040;
+
+  --color-xp-blue: #5B9BD5;
+  --color-xp-green: #4A8F4A;
+  --color-xp-orange: #E8941A;
+  --color-xp-gold: #D4C020;
+  --color-xp-purple: #9B4EC8;
+
+  --color-text-primary: #F0EDE8;
+  --color-text-secondary: #8A9A8C;
+  --color-text-muted: #556A58;
+
+  --font-heading: var(--font-playfair);
+  --font-body: var(--font-dm-sans);
+  --font-mono: var(--font-space-mono);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #0E1410;
+    color: #F0EDE8;
+    font-family: var(--font-dm-sans), system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3 {
+    font-family: var(--font-playfair), Georgia, serif;
+  }
+}
+
+@layer utilities {
+  .font-heading {
+    font-family: var(--font-playfair), Georgia, serif;
+  }
+  .font-mono-tech {
+    font-family: var(--font-space-mono), monospace;
+  }
+  .vinyl-groove {
+    background: radial-gradient(
+      circle,
+      transparent 20%,
+      rgba(0,0,0,0.15) 20.5%,
+      rgba(0,0,0,0.15) 21%,
+      transparent 21.5%,
+      transparent 28%,
+      rgba(0,0,0,0.1) 28.5%,
+      rgba(0,0,0,0.1) 29%,
+      transparent 29.5%,
+      transparent 36%,
+      rgba(0,0,0,0.1) 36.5%,
+      rgba(0,0,0,0.1) 37%,
+      transparent 37.5%,
+      transparent 44%,
+      rgba(0,0,0,0.1) 44.5%,
+      rgba(0,0,0,0.1) 45%,
+      transparent 45.5%
+    );
+  }
+  .text-gradient-gold {
+    background: linear-gradient(135deg, #E8941A, #D4C020);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .glow-gold {
+    box-shadow: 0 0 40px rgba(232, 148, 26, 0.15);
+  }
+  .glow-blue {
+    box-shadow: 0 0 40px rgba(91, 155, 213, 0.15);
+  }
+}
