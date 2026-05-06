@@ -27,6 +27,7 @@ export default function VinylDisc({ size = 320 }: { size?: number }) {
     let raf: number;
 
     function draw() {
+      if (!ctx) return;
       ctx.clearRect(0, 0, size, size);
 
       // Outer disc
