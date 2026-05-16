@@ -54,7 +54,7 @@ export default function ForArtists() {
               Reprenez le contrôle de votre distribution
             </h2>
             <p className="text-text-secondary text-lg leading-relaxed mb-8">
-              E-VINYL vous donne les outils d&apos;une plateforme de streaming majeure,
+              AURA V-NYL vous donne les outils d&apos;une plateforme de streaming majeure,
               avec le modèle économique du vinyle physique. Vos fans achètent, ils
               possèdent — vous êtes payé à la vente, pas au clic.
             </p>

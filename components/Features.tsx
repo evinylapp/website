@@ -58,7 +58,7 @@ export default function Features() {
             Fonctionnalités
           </p>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-text-primary mb-6">
-            Ce qui rend E-VINYL unique
+            Ce qui rend AURA V-NYL unique
           </h2>
           <p className="text-text-secondary text-lg max-w-2xl mx-auto">
             Des mécanismes qui n&apos;existent nulle part ailleurs, construits sur la

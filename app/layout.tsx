@@ -21,9 +21,9 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "E-VINYL — Le vinyl réinventé pour l'ère numérique",
+  title: "AURA V-NYL — Le vinyl réinventé pour l'ère numérique",
   description:
-    "E-VINYL lie un objet physique NFC à un accès digital exclusif. Posséder le vinyl physique, c'est posséder l'album. Distribution musicale nouvelle génération pour artistes et labels.",
+    "AURA V-NYL lie un objet physique NFC à un accès digital exclusif. Posséder le V-NYL physique, c'est posséder l'album. Distribution musicale nouvelle génération pour artistes et labels.",
 };
 
 export default function RootLayout({

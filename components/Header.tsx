@@ -20,7 +20,7 @@ export default function Header() {
             <div className="w-2 h-2 rounded-full bg-xp-gold" />
           </div>
           <span className="font-heading font-bold text-lg text-text-primary tracking-wide">
-            E‑VINYL
+            AURA V-NYL
           </span>
         </a>
 

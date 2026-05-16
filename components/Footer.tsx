@@ -6,7 +6,7 @@ export default function Footer() {
           <div className="w-6 h-6 rounded-full bg-bg-elevated border border-xp-gold/30 flex items-center justify-center">
             <div className="w-1.5 h-1.5 rounded-full bg-xp-gold" />
           </div>
-          <span className="font-heading font-bold text-text-primary">E‑VINYL</span>
+          <span className="font-heading font-bold text-text-primary">AURA V-NYL</span>
         </div>
 
         <p className="text-text-muted text-xs font-mono-tech text-center">
